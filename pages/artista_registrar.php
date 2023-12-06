@@ -56,28 +56,41 @@
               </div>
             </div>
 
-            
             <div class="form-row">
   
-              <div class="form-group col-md-4">
+              <div class="form-group col-md-6">
+                  <label for="inputEmail4">Apodo</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Apodo">
+              </div>
+
+              <div class="form-group col-md-6">
+                  <label for="inputEmail4">Nacionalidad</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Apellido Materno">
+              </div>
+              
+            </div>
+
+          <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputEmail4">Biografía del artista</label>
+                <textarea class="form-control" placeholder="Ingresa la biografía del artista aquí..."></textarea>
+              </div>
+          </div>
+            
+          <div class="form-row">
+              <div class="form-group col-md-12">
                 <label for="inputEmail4">Imágen del albúm</label>
                 <div class="custom-file">
                   <input type="file" class="custom-file-input" id="validatedCustomFile" required>
                   <label class="custom-file-label" for="validatedCustomFile">Selecciona tu imagen</label>
                 </div>
-
-              </div>
-              <div class="form-group col-md-8">
-                <label for="inputEmail4">Biografía del artista</label>
-                <textarea class="form-control" placeholder="Ingresa la biografía del artista aquí..."></textarea>
-              </div>
-              
             </div>
+
 
             <button class="btn btn-primary" type="submit">Guardar</button>
             <button class="btn btn-danger" type="reset">Limpiar</button>
-
-          </form>
+          </div>
+    </form>
 
 	</div>
 </div>

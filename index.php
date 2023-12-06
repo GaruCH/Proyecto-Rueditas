@@ -49,23 +49,22 @@
     </div>
 
     <!-- Page Content-->
-  <div class="container px-4 px-lg-5 pt-5 pb-5">
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="container-fluid">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ">
       <div class="row">
-        <div class="col-12 pb-5">
-
+        <div class="col-12">
           <div class="row mt-5">
             <div class="col-6 bg-secondary border border-white rounded" style="right: 5px;">
               <div class="row">
                 <div class="col-6 mt-3 mb-3">
                   <img
-                    src="https://i.pinimg.com/originals/ed/54/57/ed54571b47cb3246d3d827d0e8a8f860.jpg"
+                    src="./img/transparente-album.jpeg"
                     class="img-fluid rounded float-right" alt="" width="85%">
                 </div>
                 <div class="col-6 mt-5 mb-3">
-                  <h3>Arena en nuestras manos</h3>
+                <h3 class="font-weight-bold">Arena en nuestras manos</h3>
                   <h6>Dread Mar I</h6>
-                  <span>Transparente</span>
+                  <span class="font-italic">Transparente</span>
                   <div class="mt-2">
                     <a href="#" class="btn btn-sm btn-success text-dark"><i class="fa fa-spotify"
                         aria-hidden="true"></i> Spotify</a>
@@ -81,7 +80,7 @@
             <div class="col-6 bg-secondary border border-ligth rounded">
               <div class="row">
                 <div class="col-6 mt-3 mb-3">
-                  <img src="https://i.pinimg.com/originals/ed/54/57/ed54571b47cb3246d3d827d0e8a8f860.jpg"
+                  <img src="./img/The_Weeknd_-_Starboy.png"
                     class="img-fluid rounded float-right" alt="" width="85%">
                 </div>
                 <div class="col-6 mt-5 mb-3">
@@ -93,54 +92,62 @@
                         aria-hidden="true"></i> Spotify</a>
                     <a href="#" class="btn btn-sm btn-light text-danger"><i class="fa fa-apple" aria-hidden="true"></i>
                       Apple Music</a>
+                    <a href="./pages/album-detalles.php" class="btn btn-sm btn-dark text-light"><i class="fa fa-info"
+                      aria-hidden="true"></i> Detalles</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <div class="row">
+        <div class="col-12">
           <div class="row mt-5">
             <div class="col-6 bg-secondary border border-white rounded" style="right: 5px;">
               <div class="row">
                 <div class="col-6 mt-3 mb-3">
-                  <img src="https://th.bing.com/th/id/OIP.VZnaifacsywGiGIIefZrvAAAAA?w=474&h=474&rs=1&pid=ImgDetMain"
+                  <img
+                    src="./img/Blinding_Lights.png"
                     class="img-fluid rounded float-right" alt="" width="85%">
                 </div>
-
-                <div class="col-6 mt-3 mb-3">
-                  <h3 class="font-weight-bold">Blinding lights</h3>
-                  <h6 class="">The weeknd</h6>
+                <div class="col-6 mt-5 mb-3">
+                <h3 class="font-weight-bold">Blinding lights</h3>
+                  <h6>The weeknd</h6>
                   <span class="font-italic">After Hours</span>
                   <div class="mt-2">
                     <a href="#" class="btn btn-sm btn-success text-dark"><i class="fa fa-spotify"
                         aria-hidden="true"></i> Spotify</a>
                     <a href="#" class="btn btn-sm btn-light text-danger"><i class="fa fa-apple" aria-hidden="true"></i>
                       Apple Music</a>
+                    <a href="./pages/album-detalles.php" class="btn btn-sm btn-dark text-light"><i class="fa fa-info"
+                        aria-hidden="true"></i> Detalles</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-6 bg-secondary border border-white rounded">
+            <div class="col-6 bg-secondary border border-ligth rounded">
               <div class="row">
-                <div class="col-6 mt-3">
-                  <img
-                    src="https://i.pinimg.com/736x/b7/00/95/b70095019a16a6604d476c4f0cb7bfe1--the-weeknd-album-cover.jpg"
+                <div class="col-6 mt-3 mb-3">
+                  <img src="./img/un-verano-sin-ti.jpg"
                     class="img-fluid rounded float-right" alt="" width="85%">
                 </div>
-                <div class="col-6 mt-5">
+                <div class="col-6 mt-5 mb-3">
                   <h3 class="font-weight-bold">Otro Atardecer</h3>
                   <h6 class="">Bad Bunny</h6>
-                  <span class="font-italic">Un Verano Sin Ti </span>
+                  <span class="font-italic">Un Verano Sin Ti</span>
                   <div class="mt-2">
                     <a href="#" class="btn btn-sm btn-success text-dark"><i class="fa fa-spotify"
                         aria-hidden="true"></i> Spotify</a>
                     <a href="#" class="btn btn-sm btn-light text-danger"><i class="fa fa-apple" aria-hidden="true"></i>
                       Apple Music</a>
+                    <a href="./pages/album-detalles.php" class="btn btn-sm btn-dark text-light"><i class="fa fa-info"
+                        aria-hidden="true"></i> Detalles</a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          
           </div>
         </div>
       </div>
