@@ -43,7 +43,7 @@
             <div class="form-row">
 
             <!-- Ártitsta -->
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
               <label for="inputState">Artista</label>
               <select id="inputState" class="form-control">
                 <option selected>Selecciona un ártista...</option>
@@ -52,46 +52,53 @@
             </div>
 
             <!-- Título -->
-            <div class="form-group col-md-4">
-              <label for="inputEmail4">Título Música</label>
+            <div class="form-group col-md-3">
+              <label for="inputEmail4">Canción</label>
               <input type="text" class="form-control" id="inputEmail4" placeholder="Título música">
             </div>
 
-            <div class="form-group col-md-4">
-              <label for="inputEmail4">Nombre Albúm</label>
+            <div class="form-group col-md-3">
+              <label for="inputEmail4">Albúm</label>
               <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre albúm">
             </div>
 
+            <div class="form-group col-md-3">
+              <label for="inputEmail4">Género</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre albúm">
+            </div>
           </div>
 
             <div class="form-row">
-            <!-- Imágen -->
-            <div class="form-group col-md-4">
-              <label for="inputEmail4">Imágen del albúm</label>
-              <div class="custom-file">
-                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-                <label class="custom-file-label" for="validatedCustomFile">Selecciona archivo</label>
-              </div>
-            </div>
 
             <!-- Spotify -->
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-6">
               <label for="inputEmail4">Link Spotify</label>
               <input type="text" class="form-control" id="inputEmail4" placeholder="Título música">
             </div>
 
             <!-- Apple -->
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-6">
               <label for="inputEmail4">Apple Music</label>
               <input type="text" class="form-control" id="inputEmail4" placeholder="Título música">
             </div>
 
           </div>
 
+          <div class="form-row">
+            <!-- Imágen -->
+            <div class="form-group col-md-12">
+              <label for="inputEmail4">Imágen del albúm</label>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                <label class="custom-file-label" for="validatedCustomFile">Selecciona archivo</label>
+              </div>
+            </div>
+          </div>  
+
             <div class="form-row">
               <!-- Descripcion -->
               <div class="form-group col-md-12">
-                <label for="inputEmail4">Imágen del albúm</label>
+                <label for="inputEmail4">Descripción del album</label>
                 <textarea class="form-control" placeholder="Ingresa la descripción del albúm aquí..."></textarea>
               </div>
             </div>

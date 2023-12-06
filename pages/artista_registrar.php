@@ -78,18 +78,18 @@
           </div>
             
           <div class="form-row">
-              <div class="form-group col-md-12">
-                <label for="inputEmail4">Imágen del albúm</label>
-                <div class="custom-file">
-                  <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-                  <label class="custom-file-label" for="validatedCustomFile">Selecciona tu imagen</label>
-                </div>
+            <div class="form-group col-md-12">
+              <label for="inputEmail4">Imágen del albúm</label>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                <label class="custom-file-label" for="validatedCustomFile">Selecciona tu imagen</label>
+             </div>
             </div>
-
-
-            <button class="btn btn-primary" type="submit">Guardar</button>
-            <button class="btn btn-danger" type="reset">Limpiar</button>
           </div>
+
+          <button class="btn btn-primary" type="submit">Guardar</button>
+          <button class="btn btn-danger" type="reset">Limpiar</button>
+
     </form>
 
 	</div>
