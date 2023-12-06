@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +8,20 @@
     <!-- Local -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <!-- FontAwesome 5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <!-- FontAwesome 4 -->
+    <link rel="stylesheet" href="./plugins/font-awesome/css/font-awesome.min.css">
+ 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./css/product.css">
+    <link href="./css/product.css" rel="stylesheet">
+
+<style>
+.custom-flex{
+      display: flex;
+      justify-content: space-between;
+    }
+
+</style>
+
 </head>
 
   <body>

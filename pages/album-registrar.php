@@ -6,12 +6,14 @@
     <title>Musica</title>
 
     <!-- Local -->
-    <link rel="stylesheet" href="../plugins/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <!-- FontAwesome 4 -->
     <link rel="stylesheet" href="../plugins/font-awesome/css/font-awesome.min.css">
-  <!-- Custom styles for this template -->
-  <link href="../css/product.css" rel="stylesheet">
+  
+    <!-- Custom styles for this template -->
+    <link href="../css/product.css" rel="stylesheet">
+
 </head>
 
   <body>
@@ -22,20 +24,19 @@
 
         </a>
         <a class="py-2 d-none d-md-inline-block" href="../index.php">Inicio</a>
-        <a class="py-2 d-none d-md-inline-block" href="./artista_registrar.php">Artista</a>
-        <a class="py-2 d-none d-md-inline-block" href="./album-registrar.php">Album</a>
+        <a class="py-2 d-none d-md-inline-block" href="artista_registrar.php">Artistas</a>
+        <a class="py-2 d-none d-md-inline-block" href="album-registrar.php">Album</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Buscar</a>
-      </div>
     </nav>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class=" mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-color: rgba(0, 0, 0, 0.75);">
         <h2 class="display-5">Registrar nuevo album</h2>
           <form acttion="" method="" style="margin-top:5%;margin-bottom:5%">
             
             <div class="form-row">
               <div class="form-group col-md-12">
-                <img src="../img/no-images.png" class="img-fluid rounded mx-auto d-block" alt="Sin imagen" width="15%">
+                <img src="./img/singer.png" class="img-fluid rounded mx-auto d-block" alt="Sin imagen" width="15%">
               </div>
             </div>
 
@@ -96,7 +97,7 @@
             </div>
             
             <button class="btn btn-primary" type="submit">Guardar</button>
-            <button class="btn btn-dark" type="reset">Limpiar</button>
+            <button class="btn btn-dark bg-danger" type="reset">Limpiar</button>
           
           </form>
         </div>
